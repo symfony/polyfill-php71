@@ -18,14 +18,15 @@
     }
   ],
   "require": {
-    "php": ">=5.3.3"
+    "php": ">=5.3.3",
+    "paragonie/random_compat": "^2.0"
   },
   "autoload": {
     "psr-4": {
       "Symfony\\Polyfill\\Php71\\": "src/"
     },
     "files": [
-      "bootstrap.php"
+      "src/bootstrap.php"
     ]
   },
   "minimum-stability": "dev",

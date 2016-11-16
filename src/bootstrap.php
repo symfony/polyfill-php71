@@ -13,6 +13,8 @@ use Symfony\Polyfill\Php71 as p;
 
 if (PHP_VERSION_ID < 70100) {
     if (!function_exists('is_iterable')) {
-        function is_iterable($var) { return p\Php71::is_iterable($var); }
+        function is_iterable($var) { 
+            return p\Php71::is_iterable($var);
+        }
     }
 }
